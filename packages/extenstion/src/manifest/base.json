@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "version": "0.0.0",
+  "name": "babix.io - Home for Gamers",
+  "short_name": "babix.io",
+  "description": "TODO",
+  "homepage_url": "https://babix.io",
+  "icons": {
+    "16": "",
+    "48": "",
+    "128": ""
+  },
+  "permissions": ["storage", "alarms"],
+  "optional_permissions": ["topSites"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "",
+      "32": ""
+    }
+  },
+  "web_accessible_resources": ["index.html"]
+}
