@@ -1,4 +1,6 @@
 version: 2.1
+orbs:
+  slack: circleci/slack@3.4.2
 jobs:
   build:
     docker:
@@ -22,6 +24,10 @@ jobs:
           root: .
           paths:
             - packages
+      - slack/status:
+          channel: 'ci-cd'
+          mentions: 'U016N49F0CW,U017JM3DXUG'
+          webhook: 'https://hooks.slack.com/services/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'
 workflows:
   build:
     jobs:
