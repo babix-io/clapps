@@ -10,17 +10,10 @@
     "48": "",
     "128": ""
   },
-  "permissions": [
-    "storage",
-    "alarms"
-  ],
-  "optional_permissions": [
-    "topSites"
-  ],
+  "permissions": ["storage", "alarms"],
+  "optional_permissions": ["topSites"],
   "background": {
-    "scripts": [
-      "background.js"
-    ]
+    "scripts": ["background.js"]
   },
   "chrome_url_overrides": {
     "newtab": "index.html"
@@ -31,7 +24,5 @@
       "32": ""
     }
   },
-  "web_accessible_resources": [
-    "index.html"
-  ]
+  "web_accessible_resources": ["index.html"]
 }
