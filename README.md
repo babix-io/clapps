@@ -1,5 +1,6 @@
-<div align="central">
-  <h1>Clapps</h1></br>
+<div align="center">
+  <h1>Clapps</h1>
+  <strong>The real thing</strong>
 </div>
 <br>
 <p align="center">
