@@ -26,7 +26,8 @@ jobs:
             - packages
       - slack/status:
           channel: 'ci-cd'
-          message: 'Branch: ${CIRCLE_BRANCH}'
+          failure_message: 'Branch: ${CIRCLE_BRANCH}'
+          success_message: 'Branch: ${CIRCLE_BRANCH}'
           mentions: 'U016N49F0CW,U017JM3DXUG'
           webhook: 'https://hooks.slack.com/services/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'
 workflows:
