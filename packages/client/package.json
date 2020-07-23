@@ -1,0 +1,15 @@
+{
+  "name": "@babix/client",
+  "version": "0.1.0",
+  "description": "exposes communication functions for the Babix api",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Oren Shamun <oren@babix.io>",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.1.0",
+    "rollup": "^2.23.0"
+  }
+}
