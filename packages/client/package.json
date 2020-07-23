@@ -1,7 +1,7 @@
 {
   "name": "@babix/client",
   "version": "0.1.0",
-  "description": "exposes communication functions for the Babix api",
+  "description": "Exposes communication functions for the Babix api",
   "main": "lib/index.js",
   "scripts": {
     "test": "jest"
@@ -11,5 +11,8 @@
   "devDependencies": {
     "jest": "^26.1.0",
     "rollup": "^2.23.0"
+  },
+  "dependencies": {
+    "redaxios": "^0.3.0"
   }
 }
